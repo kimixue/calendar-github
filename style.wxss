@@ -1,0 +1,19 @@
+.calendar {
+  background-color: white;
+  width: 840px;
+  height: 490px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.calendar .calendar-left-side-day-of-week,
+.calendar .current-day-events ul {
+  position: relative;
+}
+
+.calendar .calendar-left-side-day,
+.calendar .calendar-left-side-day-of-week,
+.calendar .current-day-events,
+.calendar .add-event-day-field-btn {
+  color: white;
+}
